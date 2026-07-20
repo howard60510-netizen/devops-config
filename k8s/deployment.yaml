@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: devops-demo
-          image: ghcr.io/howard60510-netizen/devops-demo:f1a2a6052bcdd64c370ae224941468ffdbcf8c67
+          image: ghcr.io/howard60510-netizen/devops-demo:2559a12a0fd3e8a347679fe7a0f66f6be8b8efdb
           imagePullPolicy: Always
           ports:
             - containerPort: 8090
