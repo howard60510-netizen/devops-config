@@ -19,9 +19,9 @@ spec:
           image: ghcr.io/howard60510-netizen/devops-demo:27a8d36438c90dc483583ef3accba94b6cc7c1f7
           imagePullPolicy: Always
           ports:
-            - containerPort: 8090
+            - containerPort: 8000
           readinessProbe:
             httpGet:
               path: /health
-              port: 8090
+              port: 8000
             periodSeconds: 5
